@@ -45,3 +45,7 @@ vim.opt.splitbelow = true
 
 -- consider string-string as whole word
 vim.opt.iskeyword:append('-')
+
+-- tabs
+vim.opt.tabstop = 2    -- 2 spaces for tabs (prettier default)
+vim.opt.shiftwidth = 2 -- 2 spaces for indent width
