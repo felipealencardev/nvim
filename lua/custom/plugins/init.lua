@@ -8,4 +8,10 @@ return {
   { 'szw/vim-maximizer' },
 
   { 'toggleterm' },
+
+  {
+    'windwp/nvim-autopairs',
+    event = "InsertEnter",
+    opts = {}
+  }
 }
