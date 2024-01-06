@@ -4,4 +4,8 @@ return {
   { 'debug' },
 
   { 'colorscheme' },
+
+  { 'szw/vim-maximizer' },
+
+  { 'toggleterm' },
 }

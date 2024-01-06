@@ -34,3 +34,14 @@ vim.o.completeopt = 'menuone,noselect'
 
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
+
+-- line numbers
+vim.opt.relativenumber = true
+vim.opt.number = true
+
+-- split numbers
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+
+-- consider string-string as whole word
+vim.opt.iskeyword:append('-')
