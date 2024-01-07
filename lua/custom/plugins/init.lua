@@ -9,9 +9,5 @@ return {
 
   { 'toggleterm' },
 
-  {
-    'windwp/nvim-autopairs',
-    event = "InsertEnter",
-    opts = {}
-  }
+  { 'autopairs' },
 }
